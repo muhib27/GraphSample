@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:background="@color/colorHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Dashboard"/>
+
+        <ImageButton
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_filter_list_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <!--<RelativeLayout-->
+            <!--android:background="@drawable/gradient_background"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="70dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:background="#ffffff"-->
+                <!--android:layout_width="180dp"-->
+                <!--android:layout_height="50dp">-->
+
+            <!--</RelativeLayout>-->
+
+        <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    </RelativeLayout>
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Attendence"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginRight="100dp"
+            android:layout_gravity="right"
+            android:background="@drawable/circle_background_blue"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+            <TextView
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:text="63%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:progress="63"
+        android:textAlignment="center"
+        android:id="@+id/progressBarPrimary" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:text="Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="100dp"
+                android:layout_gravity="right"
+                android:background="@drawable/circle_background_blue"
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="39%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:progress="39"
+                android:textAlignment="center"
+                android:id="@+id/progressBarSecondary" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="100dp"
+                android:layout_gravity="right"
+                android:background="@drawable/circle_background_blue"
+                android:layout_width="30dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="54%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:progress="54"
+                android:textAlignment="center"
+                android:id="@+id/progressBarTeacher" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/seekBar1" />
+            <SeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="8dp"
+                android:layout_toLeftOf="@+id/tvYMax"
+                android:layout_marginRight="5dp"
+                android:max="200"
+                android:paddingBottom="12dp" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/seekBar2"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="35dp"
+                android:layout_toLeftOf="@+id/tvXMax"
+                android:layout_marginRight="5dp"
+                android:max="1500"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tvXMax"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seekBar1"
+                android:layout_alignParentRight="true"
+                android:text="@string/dash"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvYMax"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seekBar2"
+                android:layout_alignParentRight="true"
+                android:text="@string/dash"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"/>
+
+    </LinearLayout>
+
+</ScrollView>
